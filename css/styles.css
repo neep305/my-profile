@@ -15,8 +15,7 @@ header {
 }
 
 section {
-    width: 800px;
-    margin: 0 auto;
+    
 }
 
 footer {
@@ -27,6 +26,10 @@ a {
     text-decoration: none;
     padding: 0 1.25rem;
     color: inherit;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
 }
 
 .main {
@@ -41,3 +44,31 @@ header > .logo {
     
     text-decoration: none;
 }
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.transparent {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.image.round {
+    box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.2);
+    width: 30%;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.image.round img {
+    border-radius: 100%;
+}
+
+.image.fit {
+    display: block;
+    margin: 0 auto;
+}
+/* .work-experience {
+    background: rgba(255, 255, 255, 0.2);
+} */
